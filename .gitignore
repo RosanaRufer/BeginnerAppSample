@@ -1,0 +1,10 @@
+Android/bin/*
+Android/obj/*
+iOS/bin/*
+iOS/obj/*
+BeginnerAppSample/bin/*
+BeginnerAppSample/obj/*
+BeginnerAppSample.userprefs
+*.orig
+Components/
+packages/
