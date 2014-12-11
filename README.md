@@ -1,4 +1,4 @@
 BeginnerAppSample
 =================
 
-This Xamarin Application with didactic purposes
+Xamarin Application with didactic purposes
