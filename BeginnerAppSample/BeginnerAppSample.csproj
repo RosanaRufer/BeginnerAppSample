@@ -36,8 +36,13 @@
     <Compile Include="Helpers\AppConstants.cs" />
     <Compile Include="Services\Real\NavigationService.cs" />
     <Compile Include="Services\Real\CurrentPageService.cs" />
-    <Compile Include="Views\HomePage.xaml.cs">
-      <DependentUpon>HomePage.xaml</DependentUpon>
+    <Compile Include="ViewModels\HomePageViewModel.cs" />
+    <Compile Include="ViewModels\Base\ViewModelBase.cs" />
+    <Compile Include="Views\HomePageView.xaml.cs">
+      <DependentUpon>HomePageView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FirstView.xaml.cs">
+      <DependentUpon>FirstView.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
@@ -61,9 +66,13 @@
     <Folder Include="Services\Contracts\" />
     <Folder Include="Services\Real\" />
     <Folder Include="Helpers\" />
+    <Folder Include="ViewModels\Base\" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Views\HomePage.xaml">
+    <EmbeddedResource Include="Views\HomePageView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\FirstView.xaml">
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
   </ItemGroup>

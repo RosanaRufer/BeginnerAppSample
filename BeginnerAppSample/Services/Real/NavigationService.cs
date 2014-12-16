@@ -1,5 +1,6 @@
 ﻿using System;
 using BeginnerAppSample.Services.Contracts;
+using BeginnerAppSample.Views;
 using Xamarin.Forms;
 
 namespace BeginnerAppSample.Services.Real
@@ -36,9 +37,12 @@ namespace BeginnerAppSample.Services.Real
 		{
 			Page viewPage = null;
 
-			// Return the appropiated view based on the requested view
-			//switch (enumView) {
-			//}
+			switch (enumView) {
+			case(AppConstants.AppViews.FirstView):
+				viewPage = new FirstView ();
+				CurrentPageService.Instance.RootPage = viewPage;
+				break;
+			}
 
 			return viewPage;
 		}

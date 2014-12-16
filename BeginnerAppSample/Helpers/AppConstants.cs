@@ -6,6 +6,8 @@ namespace BeginnerAppSample
 	{
 		public enum AppViews
 		{
+			HomePageView,
+			FirstView
 		}
 	}
 }

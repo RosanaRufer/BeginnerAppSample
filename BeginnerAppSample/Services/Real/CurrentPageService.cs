@@ -9,7 +9,7 @@ namespace BeginnerAppSample
 
 			static CurrentPageService()
 			{
-
+			   
 			}
 
 			private CurrentPageService()

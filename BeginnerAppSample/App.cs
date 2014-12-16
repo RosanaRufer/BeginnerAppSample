@@ -1,5 +1,6 @@
 ﻿using System;
 using Xamarin.Forms;
+using BeginnerAppSample.Views;
 
 namespace BeginnerAppSample
 {
@@ -7,7 +8,11 @@ namespace BeginnerAppSample
 	{
 		public static Page GetMainPage ()
 		{	
-			return new NavigationPage (new HomePage ());
+			var homePageView = new HomePageView ();
+
+			CurrentPageService.Instance.CurrentPage = homePageView;
+
+			return new NavigationPage (homePageView);
 		}
 	}
 }
