@@ -54,6 +54,9 @@
     <Reference Include="Xamarin.Forms.Xaml">
       <HintPath>..\packages\Xamarin.Forms.1.0.6186\lib\MonoAndroid10\Xamarin.Forms.Xaml.dll</HintPath>
     </Reference>
+    <Reference Include="Xamarin-Mixpanel">
+      <HintPath>..\libs\Xamarin.Mixpanel\android\Xamarin-Mixpanel.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BeginnerAppSample\BeginnerAppSample.csproj">

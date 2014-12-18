@@ -28,6 +28,28 @@ namespace BeginnerAppSample.Android
 		{
 		}
 		
+		public partial class Animation
+		{
+			
+			// aapt resource value: 0x7f040000
+			public const int com_mixpanel_android_fade_in = 2130968576;
+			
+			// aapt resource value: 0x7f040001
+			public const int com_mixpanel_android_fade_out = 2130968577;
+			
+			// aapt resource value: 0x7f040002
+			public const int com_mixpanel_android_slide_down = 2130968578;
+			
+			static Animation()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Animation()
+			{
+			}
+		}
+		
 		public partial class Attribute
 		{
 			
@@ -41,11 +63,108 @@ namespace BeginnerAppSample.Android
 			}
 		}
 		
+		public partial class Color
+		{
+			
+			// aapt resource value: 0x7f050000
+			public const int com_mixpanel_android_selected = 2131034112;
+			
+			static Color()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Color()
+			{
+			}
+		}
+		
 		public partial class Drawable
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int Icon = 2130837504;
+			public const int com_mixpanel_android_arrowleft = 2130837504;
+			
+			// aapt resource value: 0x7f020001
+			public const int com_mixpanel_android_arrowleft_faded = 2130837505;
+			
+			// aapt resource value: 0x7f020002
+			public const int com_mixpanel_android_arrowleft_insets = 2130837506;
+			
+			// aapt resource value: 0x7f020003
+			public const int com_mixpanel_android_arrowleft_states = 2130837507;
+			
+			// aapt resource value: 0x7f020004
+			public const int com_mixpanel_android_arrowright = 2130837508;
+			
+			// aapt resource value: 0x7f020005
+			public const int com_mixpanel_android_arrowright_faded = 2130837509;
+			
+			// aapt resource value: 0x7f020006
+			public const int com_mixpanel_android_arrowright_insets = 2130837510;
+			
+			// aapt resource value: 0x7f020007
+			public const int com_mixpanel_android_arrowright_states = 2130837511;
+			
+			// aapt resource value: 0x7f020008
+			public const int com_mixpanel_android_checkmark = 2130837512;
+			
+			// aapt resource value: 0x7f020009
+			public const int com_mixpanel_android_checkmark_states = 2130837513;
+			
+			// aapt resource value: 0x7f02000a
+			public const int com_mixpanel_android_choice_first_states = 2130837514;
+			
+			// aapt resource value: 0x7f02000b
+			public const int com_mixpanel_android_choice_last_states = 2130837515;
+			
+			// aapt resource value: 0x7f02000c
+			public const int com_mixpanel_android_choice_middle_states = 2130837516;
+			
+			// aapt resource value: 0x7f02000d
+			public const int com_mixpanel_android_close = 2130837517;
+			
+			// aapt resource value: 0x7f02000e
+			public const int com_mixpanel_android_cta_button = 2130837518;
+			
+			// aapt resource value: 0x7f02000f
+			public const int com_mixpanel_android_cta_button_highlight = 2130837519;
+			
+			// aapt resource value: 0x7f020010
+			public const int com_mixpanel_android_logo = 2130837520;
+			
+			// aapt resource value: 0x7f020011
+			public const int com_mixpanel_android_nocolor_list = 2130837521;
+			
+			// aapt resource value: 0x7f020012
+			public const int com_mixpanel_android_rounded_bottom = 2130837522;
+			
+			// aapt resource value: 0x7f020013
+			public const int com_mixpanel_android_rounded_bottom_selected = 2130837523;
+			
+			// aapt resource value: 0x7f020014
+			public const int com_mixpanel_android_rounded_top = 2130837524;
+			
+			// aapt resource value: 0x7f020015
+			public const int com_mixpanel_android_rounded_top_selected = 2130837525;
+			
+			// aapt resource value: 0x7f020016
+			public const int com_mixpanel_android_square = 2130837526;
+			
+			// aapt resource value: 0x7f020017
+			public const int com_mixpanel_android_square_dropshadow = 2130837527;
+			
+			// aapt resource value: 0x7f020018
+			public const int com_mixpanel_android_square_nodropshadow = 2130837528;
+			
+			// aapt resource value: 0x7f020019
+			public const int com_mixpanel_android_square_selected = 2130837529;
+			
+			// aapt resource value: 0x7f02001a
+			public const int com_mixpanel_android_text_answer_border = 2130837530;
+			
+			// aapt resource value: 0x7f02001b
+			public const int Icon = 2130837531;
 			
 			static Drawable()
 			{
@@ -60,8 +179,50 @@ namespace BeginnerAppSample.Android
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f050000
-			public const int myButton = 2131034112;
+			// aapt resource value: 0x7f080007
+			public const int com_mixpanel_android_activity_survey_id = 2131230727;
+			
+			// aapt resource value: 0x7f08000c
+			public const int com_mixpanel_android_button_exit = 2131230732;
+			
+			// aapt resource value: 0x7f080001
+			public const int com_mixpanel_android_button_exit_wrapper = 2131230721;
+			
+			// aapt resource value: 0x7f08000a
+			public const int com_mixpanel_android_button_next = 2131230730;
+			
+			// aapt resource value: 0x7f080008
+			public const int com_mixpanel_android_button_previous = 2131230728;
+			
+			// aapt resource value: 0x7f08000d
+			public const int com_mixpanel_android_multiple_choice_answer_text = 2131230733;
+			
+			// aapt resource value: 0x7f080002
+			public const int com_mixpanel_android_notification_bottom_wrapper = 2131230722;
+			
+			// aapt resource value: 0x7f080005
+			public const int com_mixpanel_android_notification_button = 2131230725;
+			
+			// aapt resource value: 0x7f080000
+			public const int com_mixpanel_android_notification_gradient = 2131230720;
+			
+			// aapt resource value: 0x7f080006
+			public const int com_mixpanel_android_notification_image = 2131230726;
+			
+			// aapt resource value: 0x7f080004
+			public const int com_mixpanel_android_notification_subtext = 2131230724;
+			
+			// aapt resource value: 0x7f080003
+			public const int com_mixpanel_android_notification_title = 2131230723;
+			
+			// aapt resource value: 0x7f080009
+			public const int com_mixpanel_android_progress_text = 2131230729;
+			
+			// aapt resource value: 0x7f08000b
+			public const int com_mixpanel_android_question_card_holder = 2131230731;
+			
+			// aapt resource value: 0x7f08000e
+			public const int myButton = 2131230734;
 			
 			static Id()
 			{
@@ -77,7 +238,28 @@ namespace BeginnerAppSample.Android
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int Main = 2130903040;
+			public const int com_mixpanel_android_activity_notification_full = 2130903040;
+			
+			// aapt resource value: 0x7f030001
+			public const int com_mixpanel_android_activity_notification_mini = 2130903041;
+			
+			// aapt resource value: 0x7f030002
+			public const int com_mixpanel_android_activity_survey = 2130903042;
+			
+			// aapt resource value: 0x7f030003
+			public const int com_mixpanel_android_first_choice_answer = 2130903043;
+			
+			// aapt resource value: 0x7f030004
+			public const int com_mixpanel_android_last_choice_answer = 2130903044;
+			
+			// aapt resource value: 0x7f030005
+			public const int com_mixpanel_android_middle_choice_answer = 2130903045;
+			
+			// aapt resource value: 0x7f030006
+			public const int com_mixpanel_android_question_card = 2130903046;
+			
+			// aapt resource value: 0x7f030007
+			public const int Main = 2130903047;
 			
 			static Layout()
 			{
@@ -92,11 +274,32 @@ namespace BeginnerAppSample.Android
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f040001
-			public const int app_name = 2130968577;
+			// aapt resource value: 0x7f060008
+			public const int app_name = 2131099656;
 			
-			// aapt resource value: 0x7f040000
-			public const int hello = 2130968576;
+			// aapt resource value: 0x7f060000
+			public const int com_mixpanel_android_close = 2131099648;
+			
+			// aapt resource value: 0x7f060001
+			public const int com_mixpanel_android_done = 2131099649;
+			
+			// aapt resource value: 0x7f060002
+			public const int com_mixpanel_android_exit = 2131099650;
+			
+			// aapt resource value: 0x7f060003
+			public const int com_mixpanel_android_logo = 2131099651;
+			
+			// aapt resource value: 0x7f060004
+			public const int com_mixpanel_android_next = 2131099652;
+			
+			// aapt resource value: 0x7f060005
+			public const int com_mixpanel_android_notification_image = 2131099653;
+			
+			// aapt resource value: 0x7f060006
+			public const int com_mixpanel_android_previous = 2131099654;
+			
+			// aapt resource value: 0x7f060007
+			public const int hello = 2131099655;
 			
 			static String()
 			{
@@ -104,6 +307,25 @@ namespace BeginnerAppSample.Android
 			}
 			
 			private String()
+			{
+			}
+		}
+		
+		public partial class Style
+		{
+			
+			// aapt resource value: 0x7f070000
+			public const int com_mixpanel_android_SurveyActivityAnimation = 2131165184;
+			
+			// aapt resource value: 0x7f070001
+			public const int com_mixpanel_android_SurveyActivityTheme = 2131165185;
+			
+			static Style()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Style()
 			{
 			}
 		}
